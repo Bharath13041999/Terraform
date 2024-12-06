@@ -8,10 +8,7 @@ variable "key_name" {
     default     =  "mySep22Key"
 }
  
-variable "instance_type" {
-    description = "instance type for ec2"
-    default     =  "t2.micro"
-}
+
  
 variable "security_group" {
     description = "Name of security group"

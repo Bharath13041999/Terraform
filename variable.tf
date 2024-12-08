@@ -15,7 +15,7 @@ variable "bucket_prefix" {
 }
 variable "tags" {
     type        = map(string)
-    description = "(Optional) A mapping of tags to assign to the bucket"
+    description = "(Optional) A mapping of tags to assign to the bucket-----"
     default     = {
         environment = "DEV"
         terraform   = "true"
